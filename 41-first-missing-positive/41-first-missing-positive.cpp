@@ -10,7 +10,7 @@ public:
             else
                 i++;
         }
-        for (i = 0; i < n; ++i)
+        for (long i = 0; i < n; ++i)
             if (nums[i] != (i+1))
                 return i+1;
         return n+1;
