@@ -9,6 +9,7 @@ public:
                 return 0;
             }
             rev = rev*10+digit;
+            
             x = x/10;
         }
         return rev;
