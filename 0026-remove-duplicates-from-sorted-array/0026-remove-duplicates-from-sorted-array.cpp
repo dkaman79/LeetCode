@@ -1,9 +1,10 @@
 class Solution {
 public:
     int removeDuplicates(vector<int>& a) {
-        if(a.size()<=1){return a.size();}
+        int n = a.size();
+        if(n<=1){return n;}
         int counter = 1;
-        for(int i=1;i<a.size();i++){
+        for(int i=1;i<n;i++){
             if(a[i] != a[i-1]){
                 a[counter++] = a[i];
             }
