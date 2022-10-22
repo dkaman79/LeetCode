@@ -1,6 +1,6 @@
 class Solution {
     public int projectionArea(int[][] grid) {
-        if(grid.length == 1){return 1+2*grid[0][0];}
+        //if(grid.length == 1){return 1+2*grid[0][0];}
         int n = grid.length;
         int res = 0;
         int max1 = 0,max2=0;
